@@ -1,0 +1,6 @@
+.messages {
+    width: 86.04528699315429vw;
+    display: flex;
+    flex-direction: column;
+    background: gray;
+}

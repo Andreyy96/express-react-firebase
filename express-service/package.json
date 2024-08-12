@@ -1,0 +1,33 @@
+{
+  "name": "express-react-firebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:server": "nodemon --exec ts-node src/main.js",
+    "start": "node ./dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "firebase": "^10.12.4",
+    "node-localstorage": "^3.0.5"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^4.17.21",
+    "@types/express-fileupload": "^1.5.0",
+    "@types/node": "^20.12.7",
+    "joi": "^17.13.0",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "tsc-watch": "^6.2.0"
+  }
+}

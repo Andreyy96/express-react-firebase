@@ -1,0 +1,14 @@
+.messageCurrentUserDiv {
+    width: 500px;
+    place-self: flex-end;
+    background: ivory;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.messageUserDiv {
+    width: 500px;
+    background: white;
+    margin-left: 15px;
+    margin-top: 15px;
+}

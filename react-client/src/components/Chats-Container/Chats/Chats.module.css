@@ -1,0 +1,11 @@
+.chats {
+    display: flex;
+    flex-direction: column;
+    background: aqua;
+}
+
+.chats a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
